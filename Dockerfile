@@ -1,5 +1,5 @@
 # set the base image to a Python base image
-FROM python:3:11
+FROM python:3.11
 # set a key-value label for the Docker image
 LABEL maintainer="Tyler Timpanaro"
 # copy files from the host to the container filesystem
